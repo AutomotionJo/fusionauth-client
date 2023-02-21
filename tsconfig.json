@@ -4,20 +4,9 @@
     "module": "commonjs",
     "declaration": true,
     "sourceMap": true,
-    "lib": [
-      "es2015"
-    ],
+    "lib": ["es2015"],
     "outDir": "build",
-    "types": [
-      "node",
-      "node-fetch"
-    ]
+    "types": ["node", "node-fetch"]
   },
-  "exclude": [
-    "node_modules",
-    "build",
-    "dist",
-    "test",
-    "examples"
-  ]
+  "exclude": ["node_modules", "build", "dist", "test", "examples"]
 }
